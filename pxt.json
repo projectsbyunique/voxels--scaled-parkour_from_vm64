@@ -1,0 +1,54 @@
+{
+    "name": "voxels ??? \"Scaled\" Parkour",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "browser-events": "*",
+        "palette": "*",
+        "Stats": "github:unsignedarduino/stats#758e35856bd5565e5d0e25c95cccfac79b7fc168"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "cam.ts",
+        "ray.ts",
+        "chars.ts",
+        "map.ts",
+        "vars.ts",
+        "hitboxes.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "stable4.0",
+        "tag": "v4.0.10",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/36d4f2a19825951e0393581aaa2748922cbe0095",
+        "target": "4.0.14",
+        "pxt": "12.2.30",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj",
+    "palette": [
+        "#000000",
+        "#FFFFFF",
+        "#FF2121",
+        "#FF93C4",
+        "#FF8135",
+        "#FFF609",
+        "#12BB21",
+        "#78DC52",
+        "#003FAD",
+        "#87F2FF",
+        "#8E2EC4",
+        "#A4839F",
+        "#5C406c",
+        "#E5CDC4",
+        "#91463d",
+        "#000000"
+    ]
+}
